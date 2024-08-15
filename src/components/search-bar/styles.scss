@@ -1,0 +1,62 @@
+.search-container {
+  width: 840px;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  .title-area {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    h3 {
+      margin: 0 0 20px;
+      padding-left: 20px;
+    }
+    .logo {
+      margin-right: 10px;
+      position: absolute;
+      top: 3px;
+    }
+  }
+  .flight-search {
+    display: flex;
+    justify-content: space-between;
+    .flight-places,
+    .flight-dates {
+      display: flex;
+      .take-off-search {
+        border: 1px solid black;
+        input {
+          outline: 0;
+          border: 0;
+        }
+        input:focus {
+          outline: none;
+        }
+      }
+      .landing-search {
+        border: 1px solid black;
+        input {
+          outline: 0;
+          border: 0;
+        }
+        input:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+  .search-button button {
+    margin-top: 14px;
+    background-color: #4b0097;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    &:hover {
+      background-color: #4b0097;
+      opacity: 0.8;
+    }
+  }
+}
